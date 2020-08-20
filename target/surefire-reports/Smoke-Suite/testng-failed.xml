@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke-Suite]">
+  <test verbose="0" name="FirstTest(failed)">
+    <classes>
+      <class name="gitTest.GitTest">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- gitTest.GitTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+  <test verbose="0" name="SecondTest(failed)">
+    <classes>
+      <class name="gitTest2.GitTest2">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- gitTest2.GitTest2 -->
+    </classes>
+  </test> <!-- SecondTest(failed) -->
+</suite> <!-- Failed suite [Smoke-Suite] -->

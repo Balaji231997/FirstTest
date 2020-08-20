@@ -1,4 +1,4 @@
-package gitTest;
+package gitTest2;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,18 +11,18 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class GitTest {
+public class GitTest2 {
 	
 	@Test
 	public void loginTest() throws IOException{
 		WebDriver wd=new FirefoxDriver();
-		wd.get("http://www.google.com");
+		wd.get("http://www.bing.com");
 		System.out.println(wd.getTitle());
-		wd.findElement(By.name("q")).sendKeys("chennai");
+		wd.findElement(By.name("q")).sendKeys("Tamilnadu");
 		wd.findElement(By.name("q")).submit();
 		System.out.println(wd.getTitle());
 		int i=1/0;
 		File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("C:\\Workspace\\A13_GitTest\\Screenshot\\sample.jpeg"));
+		FileUtils.copyFile(src, new File("C:\\Workspace\\A13_GitTest\\Screenshot\\sample2.jpeg"));
 	}
 }

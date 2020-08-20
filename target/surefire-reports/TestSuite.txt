@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 111.591 sec <<< FAILURE! - in TestSuite
+loginTest(gitTest.GitTest)  Time elapsed: 69.936 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at gitTest.GitTest.loginTest(GitTest.java:24)
+
+loginTest(gitTest2.GitTest2)  Time elapsed: 37.825 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at gitTest2.GitTest2.loginTest(GitTest2.java:24)
+
