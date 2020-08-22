@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75598" started-at="2020-08-18T03:49:22Z" finished-at="2020-08-18T03:50:38Z">
+  <suite name="Smoke-Suite" duration-ms="61539" started-at="2020-08-22T15:29:08Z" finished-at="2020-08-22T15:30:10Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75598" started-at="2020-08-18T03:49:22Z" finished-at="2020-08-18T03:50:38Z">
+    <test name="FirstTest" duration-ms="38189" started-at="2020-08-22T15:29:08Z" finished-at="2020-08-22T15:29:47Z">
       <class name="gitTest.GitTest">
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:gitTest.GitTest@45c8e616]" name="loginTest" duration-ms="75497" started-at="2020-08-18T09:19:22Z" finished-at="2020-08-18T09:20:38Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gitTest.GitTest@2ff4f00f]" name="loginTest" duration-ms="38154" started-at="2020-08-22T20:59:09Z" finished-at="2020-08-22T20:59:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
       </class> <!-- gitTest.GitTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- FirstTest -->
+    <test name="SecondTest" duration-ms="23283" started-at="2020-08-22T15:29:47Z" finished-at="2020-08-22T15:30:10Z">
+      <class name="gitTest2.GitTest2">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:gitTest2.GitTest2@3ac3fd8b]" name="loginTest" duration-ms="23280" started-at="2020-08-22T20:59:47Z" finished-at="2020-08-22T21:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- gitTest2.GitTest2 -->
+    </test> <!-- SecondTest -->
+  </suite> <!-- Smoke-Suite -->
 </testng-results>
